@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Homepage</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header id="page-header">
+    <div id="page-header-container"><a href="index.html"><img src="images/logo.png" width="298" height="71" alt="company logo"></a>
+          <nav id="page-menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="cakes-for-sale.html">Cakes for Sale</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li><a href="about.html">About</a></li>
+              </ul>
+            </nav>
+        </div>
+	  	<div id="page-banner-container">
+		  <h1><strong>Cakes for Sale</strong></h1>
+</div>
+	</header>
+	<main>
+	  <section class="typography">
+	    <section class="gallery">
+	      <div class="one">
+	        <div class="item">
+	          <h3>Specialty Cakes</h3>
+            	<a href="images/large/specialOccasion900.jpg" target="_blank"><img src="images/small/specialOccasion300.jpg" width="300" height="199" alt="photo of cake"></a>
+				<p>Can be made to match dietary requirements</p>
+			  </div>
+	        <div class="item">
+	          <h3>Flavoured Cakes</h3>
+            	<a href="images/large/strawberryCake640.jpg" target="_blank"><img src="images/small/strawberryCake300.jpg" width="300" height="201" alt="photo of cake"></a>
+				<p>Contains gluten, dairy, nuts and eggs. Strawberry cakes contain strawberries.</p>
+			</div>
+	        <div class="item">
+				<h3>Cheesecakes</h3>
+				<a href="images/large/cheeseCake640.jpg" target="_blank"><img src="images/small/cheeseCake300.jpg" width="300" height="200" alt="photo of cheesecake"></a>
+				<p>Contains gluten and dairy </p>
+			</div>
+          </div>
+	      <hr class="clear">
+	      <div class="two">
+	        <div class="item">
+	          <h3>Brownies</h3>
+	          <a href="images/large/brownie640.jpg" target="_blank"><img src="images/small/brownie300.jpg" width="300" height="200" alt="photo of brownies"></a>
+			  <p>Contains dairy, nuts and eggs</p>
+			</div>
+	        <div class="item">
+	          <h3>Cupcakes</h3>
+	          <a href="images/large/cupcake640.jpg" target="_blank"><img src="images/small/cupcake300.jpg" width="300" height="200" alt="photo of cupcakes"></a>
+			  <p>Contains gluten, dairy, nuts and eggs</p>
+			</div>
+	        <div class="item">
+	          <h3>Macarons</h3>
+	          <a href="images/large/macaron640.jpg" target="_blank"><img src="images/small/macaron300.jpg" width="300" height="200" alt="photo of macarons"></a>
+			  <p>Contains gluten, dairy, nuts and eggs</p>
+			</div>
+          </div>
+	      <hr class="clear">
+        </section>
+	    <hr class="gap">
+<h2>Prices</h2>
+	    <table id="table">
+	      <tbody>
+	        <tr>
+	          <th scope="col">Cake Size</th>
+	          <th scope="col">Suitable for</th>
+	          <th scope="col">Price</th>
+            </tr>
+	        <tr>
+	          <th scope="row">Small</th>
+	          <td>8 - 10 people</td>
+	          <td>$50.00</td>
+            </tr>
+	        <tr>
+	          <th scope="row">Medium</th>
+	          <td>10 - 12 people</td>
+	          <td>$60.00</td>
+            </tr>
+	        <tr>
+	          <th scope="row">Large</th>
+	          <td>16 - 20 people</td>
+	          <td>$100.00</td>
+            </tr>
+          </tbody>
+        </table>
+	    <hr class="gap">
+<h2>Order</h2>
+		<p id="order-form-paragraph">If you're interested in ordering a cake for your special occasion, let us know!</p>
+	    <form action="mailto:specialcakes@email.com" id="order-form">
+	      <table>
+	        <tbody>
+	          <tr>
+	            <td><label for="name">Name:</label></td>
+	            <td><input type="text" id="name" name="name"></td>
+              </tr>
+	          <tr>
+	            <td><label for="email">Email:</label></td>
+	            <td><input type="email" id="email" name="email"></td>
+              </tr>
+	          <tr>
+	            <td><label for="phone">Phone:</label></td>
+	            <td><input type="tel" id="phone" name="phone"></td>
+              </tr>
+				<tr>
+	            <td><label for="size">Size:</label></td>
+	            <td><select name="size" id="size">
+	              <option>Small</option>
+	              <option>Medium</option>
+	              <option>Large</option>
+	              </select></td>
+              </tr>
+	          <tr>
+	            <td><label for="cake">Cake Request:</label></td>
+	            <td><select name="cake" id="cake">
+	              <option>Specialty Cakes</option>
+	              <option>Flavoured Cakes</option>
+	              <option>Cheesecakes</option>
+	              <option>Brownies</option>
+	              <option>Cupcakes</option>
+	              <option>Macarons</option>
+	              </select></td>
+              </tr>
+				
+	          <tr>
+	            <td><label for="date">Date Required:</label></td>
+	            <td><input type="date" id="date" name="date"></td>
+              </tr>
+            </tbody>
+          </table>
+	      <input type="submit" name="submit" id="submit" value="Place Order">
+</form>
+	    <hr class="gap">
+      </section>
+</main>
+	<footer id="page-footer">
+	  <p>Created 2024 by Reilly Moore</p>
+</footer>
+</body>
+</html>
